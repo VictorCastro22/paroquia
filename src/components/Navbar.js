@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/navbar.css';
+import logo from '../assets/images/logo-paroquia.png';
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +11,9 @@ function Navbar() {
 
     return (
         <nav className="navbar">
-            <div className="navbar-logo">Logo</div>
+            <div className="navbar-logo">
+                <img src={logo} alt="Logo" className="logo" />
+            </div>
             <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
                 <li className="nav-item"><a href="#home">Inicio</a></li>
                 <li className="nav-item"><a href="#menu">Missas</a></li>
