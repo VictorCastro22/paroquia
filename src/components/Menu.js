@@ -4,15 +4,15 @@ import '../styles/menu.css';
 function Menu() {
     return (
         <section id="menu">
-            <h2 className="section-title">Our Menu</h2>
+            <h2 className="section-title">Missões</h2>
             <div id="dishes">
                 <div className="dish">
                     <div className="dish-heart">❤</div>
-                    <img src="path/to/dish.jpg" alt="Dish Name" />
-                    <h3>Dish Name</h3>
-                    <p className="dish-description">Description of the dish</p>
+                    {/* <img src="path/to/dish.jpg" alt="Entrega de Marmitas" /> */}
+                    <h3>Entrega de Marmitas</h3>
+                    <p className="dish-description">Entrega de Marmitas aos moradores de rua da nossa cidade</p>
                     <div className="dish-price">
-                        <span>$19.99</span>
+                        <span>25/10/2024</span>
                     </div>
                 </div>
                 {}

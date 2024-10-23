@@ -6,15 +6,15 @@ function Home() {
         <section id="home">
             <div id="cta">
                 <h1 className="title">
-                    Welcome to <span>Our Restaurant</span>
+                    Nossa Senhora <span>da Penha</span>
                 </h1>
                 <p className="description">
-                    Discover the best dishes prepared with the freshest ingredients.
+                    Conheça um pouco da nossa história!
                 </p>
                 <div id="cta_buttons">
-                    <a href="#menu">View Menu</a>
+                    <a href="#menu">Missas</a>
                     <div id="phone_button">
-                        <button>Call Now</button>
+                        <button>Veja agora</button>
                     </div>
                 </div>
             </div>
